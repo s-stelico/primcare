@@ -1,0 +1,40 @@
+
+
+/* first */
+.contact {
+  color: white;
+  background-color: #82C419;
+}
+.header {
+  background-image: url(images/slider-bg.jpg);
+}
+.care-center {
+  color: white;
+  background-color: #363635;
+  text-align: left;
+  padding: 8% 4%;
+}
+
+.btn {
+  background-color: #82C419;
+}
+.navbar-toggler-icon {
+  background-color: black;
+  color: black;
+}
+.login {
+  display: inline-block;
+  padding: 0 15px;
+}
+.read-more-btn {
+  text-align: right;
+  margin-top: 4%;
+}
+.contact-btn {
+margin-bottom: 4%;
+}
+.baby {
+  padding: 0;
+}
+
+/* second */
