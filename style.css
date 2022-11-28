@@ -6,6 +6,7 @@
   background-color: #82C419;
 }
 .header {
+  display: flex;
   background-image: url(images/slider-bg.jpg);
 }
 .care-center {
@@ -22,12 +23,14 @@
   background-color: black;
   color: black;
 }
+.navbar-toggler {
+  padding: 0;
+}
 .login {
   display: inline-block;
-  padding: 0 15px;
+  padding: 0 7px;
 }
 .read-more-btn {
-  text-align: right;
   margin-top: 4%;
 }
 .contact-btn {
@@ -35,6 +38,25 @@ margin-bottom: 4%;
 }
 .baby {
   padding: 0;
+}
+.fav {
+  padding: 0 2%;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 576px) {
+  .btn {
+    display: none;
+  }
+  .care-center {
+    text-align: center;
+  }
+  .header {
+    flex-direction: column;
+  }
 }
 
 /* second */
