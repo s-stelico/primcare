@@ -14,7 +14,9 @@
   text-align: left;
   padding: 8% 4%;
 }
-
+.primecare {
+  padding: 0;
+}
 .btn {
   background-color: #82C419;
 }
@@ -58,9 +60,6 @@ a {
   }
   .prime {
     padding-left: 15%;
-  }
-  .header {
-    background: none;
   }
 }
 
