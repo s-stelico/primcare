@@ -83,7 +83,19 @@ a {
 /* second */
 #second {
   background-color: black;
+  padding: 2% 0;
 }
 .services {
   display: flex;
+}
+.service4-pic {
+  padding: 3% 0;
+}
+
+@media (max-width: 576px) {
+  .services {
+    flex-direction: column;
+    text-align: center;
+  }
+
 }
