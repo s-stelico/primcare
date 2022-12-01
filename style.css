@@ -82,11 +82,15 @@ a {
 
 /* second */
 #second {
-  background-color: black;
-  padding: 2% 0;
+  background-color: grey;
+  padding: 2% 6%;
+  color: white;
 }
 .services {
   display: flex;
+}
+.services > * {
+  padding: 0 3%;
 }
 .service4-pic {
   padding: 3% 0;
@@ -97,5 +101,10 @@ a {
     flex-direction: column;
     text-align: center;
   }
+  .services > * {
+    padding: 5%;
+  }
 
 }
+
+/* Third */
