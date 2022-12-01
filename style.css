@@ -12,7 +12,13 @@
   color: white;
   background-color: #363635;
   text-align: left;
-  padding: 8% 4%;
+  padding: 8% 3%;
+}
+.care-center2 {
+  color: white;
+  background-color: #363635;
+  text-align: left;
+  padding: 8% 3%;
 }
 .primecare {
   padding: 0;
@@ -52,16 +58,32 @@ a {
 }
 
 @media (max-width: 576px) {
-  .btn {
-    display: none;
-  }
+
   .care-center {
+    text-align: center;
+    background-image: url(images/slider-bg.jpg);
+    background-size: cover;
+    color: black;
+  }
+  .care-center2 {
     text-align: center;
   }
   .prime {
     padding-left: 15%;
   }
+  .contact-btn {
+    display: none;
+  }
+  .read-more-btn {
+    display: none;
+  }
 }
 
 
 /* second */
+#second {
+  background-color: black;
+}
+.services {
+  display: flex;
+}
