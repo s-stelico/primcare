@@ -108,3 +108,50 @@ a {
 }
 
 /* Third */
+#third {
+  padding: 5%;
+}
+
+.about-us {
+  display: flex;
+}
+
+/* fourth */
+#fourth {
+  text-align: center;
+}
+.why-img {
+  background-color: #82C419;
+  padding: 20% 40%;
+}
+@media (max-width: 576px) {
+.why-img {
+  padding: 10% 20%;
+}
+.why-images {
+  padding: 5% 0;
+}
+}
+
+/* fifth */
+#fifth {
+padding: 5%;
+text-align: center;
+}
+
+.form {
+  padding: 4% 20%;
+}
+.form > * {
+  padding: 1.5% 0;
+}
+.submit {
+  padding: 1% 8%;
+  margin-top: 2%;
+}
+
+@media (max-width: 576px) {
+.mail-number {
+  display: block;
+}
+}
