@@ -157,7 +157,7 @@ padding: 5%;
 /* sixth */
 .testimonial {
   text-align: left;
-  margin: 4% 12%;
+  margin: 6% 12%;
   padding: 3% 5%;
   border-style: solid;
   border-width: thin;
@@ -165,4 +165,19 @@ padding: 5%;
 }
 .client {
   position: absolute;
+  left: 80px;
+  border-style: solid;
+  border-width: thin;
+  border-color: #82C419;
+  padding: 0.1%;
+}
+.dots {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 576px) {
+.client {
+  left: 27px;
+}
 }
