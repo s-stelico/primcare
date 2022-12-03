@@ -158,6 +158,9 @@ padding: 5%;
 }
 
 /* sixth */
+#sixth {
+  padding-bottom: 3%;
+}
 .testimonial {
   text-align: left;
   margin: 6% 12%;
@@ -200,13 +203,26 @@ h6 {
   text-align: left;
   color: white;
   background-color: #252525;
+  padding: 3% 7%;
 }
-
-.footer {
-  display: flex;
-  justify-content: space-around;
-  padding: 3% 10%;
+.footer-link {
+  padding-bottom: 7%;
 }
-.navigation {
+.contact-form {
+  background-color: inherit;
+  border-style: solid;
+  border-width: thin;
+  border-color: #82C419;
+  margin-bottom: 4%;
+}
+.navigation{
   display: flex;
+}
+.navigation > * {
+  padding: 0 3%;
+}
+@media (max-width: 576px) {
+.footer-nav{
+  padding: 10% 0;
+}
 }
