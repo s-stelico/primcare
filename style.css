@@ -56,6 +56,9 @@ margin-bottom: 4%;
 }
 a {
   text-decoration: none;
+  color: white;
+}
+.log {
   color: black;
 }
 
@@ -175,9 +178,35 @@ padding: 5%;
   display: flex;
   justify-content: center;
 }
+.dots > * {
+  margin: 0 0.4%;
+}
+h4 {
+  margin-bottom: 0;
+}
+h6 {
+  color: #82C419;
+  margin-bottom: 3%;
+}
 
 @media (max-width: 576px) {
 .client {
   left: 27px;
 }
+}
+
+/* seventh */
+#seventh {
+  text-align: left;
+  color: white;
+  background-color: #252525;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 3% 10%;
+}
+.navigation {
+  display: flex;
 }
