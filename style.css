@@ -1,4 +1,6 @@
-
+body {
+  text-align: center;
+}
 
 /* first */
 .contact {
@@ -10,13 +12,13 @@
 }
 .care-center {
   color: white;
-  background-color: #363635;
+  background-color: #252525;
   text-align: left;
   padding: 8% 3%;
 }
 .care-center2 {
   color: white;
-  background-color: #363635;
+  background-color: #252525;
   text-align: left;
   padding: 8% 3%;
 }
@@ -117,9 +119,6 @@ a {
 }
 
 /* fourth */
-#fourth {
-  text-align: center;
-}
 .why-img {
   background-color: #82C419;
   padding: 20% 40%;
@@ -136,7 +135,6 @@ a {
 /* fifth */
 #fifth {
 padding: 5%;
-text-align: center;
 }
 
 .form {
@@ -154,4 +152,17 @@ text-align: center;
 .mail-number {
   display: block;
 }
+}
+
+/* sixth */
+.testimonial {
+  text-align: left;
+  margin: 4% 12%;
+  padding: 3% 5%;
+  border-style: solid;
+  border-width: thin;
+  border-color: #82C419;
+}
+.client {
+  position: absolute;
 }
