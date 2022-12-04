@@ -114,11 +114,24 @@ a {
 
 /* Third */
 #third {
+  color: white;
   padding: 5%;
+  text-align: left;
 }
 
 .about-us {
   display: flex;
+  padding: 3%;
+}
+.about {
+  background-color:#252525;
+  padding: 2%;
+}
+
+@media (max-width: 576px) {
+.about-us {
+  flex-direction: column;
+}
 }
 
 /* fourth */
@@ -137,7 +150,10 @@ a {
 
 /* fifth */
 #fifth {
-padding: 5%;
+padding:1% 5%;
+background-color: #252525;
+color: white;
+margin-bottom: 2%;
 }
 
 .form {
